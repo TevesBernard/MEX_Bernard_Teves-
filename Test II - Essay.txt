@@ -1,0 +1,23 @@
+1.What is the difference of state and props.
+
+The state is a built-in React object that is used to contain data or information about the component.A component’s state can change over time; whenever it changes, the component re-renders.
+The change in state can happen as a response to user action or system-generated events and these changes determine the behavior of the component and how it will render. 
+
+
+Props stand for "Properties." They are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTMLattributes. 
+It gives a way to pass data from one component to other components. It is similar to function arguments.
+
+
+Their differencesare:
+State
+•State is used to store the data of the components that have to be rendered to the view
+•State holds the data and can change over time
+•State can only be used in class components
+•Event handlers generally update state
+
+
+Props
+•Props are used to pass data and event handlers to the children components
+•Props are immutable—once set, props cannot be changed
+•Props can be used in both functional and class components
+•The parent component sets props for the children components
